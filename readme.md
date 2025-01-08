@@ -27,7 +27,10 @@ This file defines the extension's configuration, including the necessary permiss
 This script runs on GitHub PR pages and performs the following actions:
 - Detects if the PR has the "WIP" label.
 - Blocks the merge button if the "WIP" label is present.
-- Displays a modal window with a warning and an image of Tucu.
+- Displays a modal window with a warning and an image of Tucu.  
+The display modal is:  
+![TucuImage](./TucuImage.png)
+
 
 ## Contributions
 

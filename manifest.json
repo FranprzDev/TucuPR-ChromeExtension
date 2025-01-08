@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "WIP Merge Blocker",
+    "version": "1.0.1",
+    "description": "Bloquea merges de PRs en estado WIP mostrando una ventana modal con una foto del Tucu.",
+    "permissions": ["activeTab"],
+    "host_permissions": ["https:/github.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["https://github.com/*/pull/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
